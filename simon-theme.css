@@ -1,0 +1,67 @@
+body{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  padding: 20px;
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+.inner{
+  float:left;
+  margin: 5px;
+  background-color: ;
+  height: 190px;
+  width: 190px;
+}
+.inner:hover{
+  cursor: pointer;
+}
+#gameboard {
+  height: 400px;
+  width: 400px;
+  margin: 40px auto 40px auto;
+  color: ;
+  background-color: ;
+}
+.row{
+  background-color: ;
+  height: 200px;
+  width: 400px;
+}
+#greenOne{
+  border-top-left-radius:100%;
+  background-color: green;
+}
+#redTwo{
+  border-top-right-radius:100%;
+  background-color: red;
+}
+#yellowThree{
+  border-bottom-left-radius:100%;
+  background-color: yellow;
+}
+#blueFour{
+  border-bottom-right-radius:100%;
+  background-color: blue;
+}
+.light{
+  opacity: 0.99;
+}
+.dark{
+  opacity: 0.6;
+}
+span{
+  margin: 30px;
+}
+span:hover{
+  cursor: pointer;
+  color: grey;
+}
+#count{
+  margin: 0px;
+}
+#count:hover{
+  cursor: none;
+  color: black;
+}
+.neon{
+  color: #22D900;
+}
